@@ -1,9 +1,5 @@
-:: Bios tweaks
-:: WARNING: This disables DEP (Data Execution Prevention), a critical security
-:: feature that prevents code execution from non-executable memory regions.
-:: Only disable if you have a specific compatibility reason and understand the risk.
 set bcd=%windir%\system32\bcdedit.exe
-%bcd% /set nx AlwaysOff
+%bcd% /set nx AlwaysOn
 %bcd% /set ems No
 %bcd% /set bootems No
 %bcd% /set integrityservices disable

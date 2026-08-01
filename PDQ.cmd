@@ -5,7 +5,7 @@ SETLOCAL ENABLEDELAYEDEXPANSION
 set "SCRIPT_NAME=System Cleanup Utility"
 set "SCRIPT_VERSION=1.0.0"
 set "SCRIPT_UPDATED=2025-03-10"
-set "AUTHOR=vocatus (consolidated by Grok/xAI)"
+set "AUTHOR=Gorstak
 
 :: Configuration Variables
 set "LOGPATH=%SystemDrive%\Logs"

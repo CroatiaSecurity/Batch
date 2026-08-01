@@ -6,4 +6,4 @@ Title Bufferbloat && Color 0b
 DEL /F /Q "%temp%\uac.vbs"
 
 :: Step 2: Bufferbloat
-netsh int tcp set global autotuninglevel=highlyrestricted
+netsh int tcp set global autotuninglevel=restricted
